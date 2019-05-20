@@ -22,7 +22,7 @@
 		score 300~500: class 2
 		score 	 >500: calss 1
 	```
-	**MLP structure:**  
-	**input:**  drug structure vector(300) & protein sequence vector(300)  with class label (1,2,3)  
+	**MLP model:**  
+	**input:**  drug structure vector(300) & protein sequence vector(300)     
 	**output:**  interaction score class (1,2,3)  
 	
