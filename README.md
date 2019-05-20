@@ -1,11 +1,11 @@
 # Pharmocogenomics  (MLP)
 * **Drug Structure & Protein Sequence**
 
-	* **training dataset**  
+	* **training dataset** 
 
-		**including:**  
-			* drug structure vector (**300**)   
-			* protein sequence vector (**300**)  
+		* **including:**  
+			1. drug structure vector (**300**)   
+			2. protein sequence vector (**300**)  
 
 
 		**training-dataset-rf-mlp.csv**
@@ -22,7 +22,12 @@
 			score 300~500: class 2
 			score 	 >500: calss 1
 		```
+	
+
+
+	* **test dataset**   
+		- [ ]  drug structure vector(300) & protein sequence vector(300)  
+	
 	* **MLP model:**  
 		**input:**  drug structure vector(300) & protein sequence vector(300)     
 		**output:**  interaction score class (1,2,3)  
-	
