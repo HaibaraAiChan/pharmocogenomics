@@ -28,7 +28,8 @@
 
 
 
-## intersection DrugBank & STITCH dataset (271)
+## intersection DrugBank & STITCH dataset (271)  
+### use DrugBank dataset to predict STITCH dataset's class number
 * **Drug Structure & Protein Sequence**
 
 	* **training dataset** 
