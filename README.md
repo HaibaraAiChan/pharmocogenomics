@@ -1,5 +1,6 @@
 # Pharmocogenomics  (MLP)   
 ## DrugBank dataset (8,000)  
+### use DrugBank dataset to train the model of drug and protein interaction: positive or negative
 
 * **Drug Structure & Protein Sequence**
 
