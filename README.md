@@ -17,10 +17,12 @@
 		class: 0 or 1 (negative or positive)
 	  	```
 	    
-	 * split total data in to train and test part(0.9,0.1), training model with 5-fold cross validation
-### test  
+	 * split total data in to train and test part(0.9,0.1), training model with 5-fold cross validation  
+	 * **test**  
+	 ![eg_image](https://github.com/HaibaraAiChan/pharmocogenomics/blob/master/DrugBank_dataset/model/test_96.png)
+           
 
-![eg_image](https://github.com/HaibaraAiChan/pharmocogenomics/blob/master/DrugBank_dataset/model/test_96.png)
+	   
 		
 	
 
