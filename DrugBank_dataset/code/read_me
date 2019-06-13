@@ -1,9 +1,5 @@
 
 
-
-
-
-
 There are 6 data sample in both negative and positive data-set
 'prepare.py' is used to replace these 6 data sample (drug_id and sequence 300)
 
@@ -19,3 +15,5 @@ There are 6 data sample in both negative and positive data-set
                                         and data generator
 
 'test.py' is used to test the model and draw ROC curve.
+
+
