@@ -1,0 +1,21 @@
+
+
+
+
+
+
+There are 6 data sample in both negative and positive data-set
+'prepare.py' is used to replace these 6 data sample (drug_id and sequence 300)
+
+'data_2_vector.py' is used to transfer negative-data-mlp.out
+                                       positive-data-mlp.out
+                                       files to separate vector(600) files in /positive and /negative folders
+                                       under data/pre-process folder.
+
+'mlp_model.py' is the model structure
+
+'5_fold_cross_valid_generator.py' does the training and validation part of model with
+                                        cross validation
+                                        and data generator
+
+'test.py' is used to test the model and draw ROC curve.
