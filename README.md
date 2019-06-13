@@ -5,7 +5,7 @@
 * **Drug Structure & Protein Sequence**
 
 	* **training dataset** 
-		**training-dataset**
+		
 		```
 		pubchem-id:  drug A
 		ensemble-id:  protein B
@@ -15,7 +15,12 @@
 		mol2vec-000 ~ 299: chemical structure 300 feature of drug A
 		0_y ~ 99: sequence 100 feature of protein B (combine 3 rows which means 3 different sequence split methods to generate 300 length vector)
 		class: 0 or 1 (negative or positive)
-		```
+	  	```
+	    
+	 * split total data in to train and test part(0.9,0.1), training model with 5-fold cross validation
+### test  
+
+![eg_image](https://github.com/HaibaraAiChan/pharmocogenomics/blob/master/DrugBank_dataset/model/test_96.png)
 		
 	
 
