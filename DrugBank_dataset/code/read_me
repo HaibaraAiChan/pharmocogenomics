@@ -7,7 +7,10 @@ There are 6 data sample in both negative and positive data-set
                                        positive-data-mlp.out
                                        files to separate vector(600) files in /positive and /negative folders
                                        under data/pre-process folder.
-
+                                       
+'split_train_valid_test.py' is used to split the original dataset to different use part.  
+                                        here, parameter is 0.9,0.0,0.1: 0.9 is used for cross_valid train, 0.1 is used for prediction.  
+                                        
 'mlp_model.py' is the model structure
 
 '5_fold_cross_valid_generator.py' does the training and validation part of model with
