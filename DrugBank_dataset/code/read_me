@@ -1,7 +1,7 @@
 
 
 There are 6 data sample in both negative and positive data-set
-'prepare.py' is used to replace these 6 data sample (drug_id and sequence 300)
+'prepare.py' is used to replace these 6 data sample (drug_id and sequence 300)(already finished, do not use it agian)
 
 'data_2_vector.py' is used to transfer negative-data-mlp.out
                                        positive-data-mlp.out
